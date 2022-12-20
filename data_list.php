@@ -12,7 +12,7 @@
         </header>
         
         <nav>
-            <a href="form-daftar.php">[+] Tambah Baru</a>
+            <a href="form_regist.php">[+] Tambah Baru</a>
         </nav>
         
         <br>
@@ -46,8 +46,8 @@
                 echo "<td>".$siswa['sekolah_asal']."</td>";
                 
                 echo "<td>";
-                echo "<a href='form-edit.php?id=".$siswa['id']."'>Edit</a> | ";
-                echo "<a href='hapus.php?id=".$siswa['id']."'>Hapus</a>";
+                echo "<a href='form_edit.php?id=".$siswa['id']."'>Edit</a> | ";
+                echo "<a href='data_delete.php?id=".$siswa['id']."'>Hapus</a>";
                 echo "</td>";
                 
                 echo "</tr>";

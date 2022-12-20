@@ -4,7 +4,7 @@ include("config.php");
 
 if( !isset($_GET['id']) ){
 	// kalau tidak ada id di query string
-	header('Location: list-siswa.php');
+	header('Location: data_list.php');
 }
 
 //ambil id dari query string
